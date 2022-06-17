@@ -66,6 +66,7 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
     background-color: hsl(29, 41%, 25%);
     color: white;
     border-radius: 25px;
+    box-shadow: 0 1px #063d1eb7;
     }
 
     .btn-login:hover, .btn-cadastro:hover{
@@ -147,6 +148,11 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
         
     }
 
+        .divisao{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     .duplaUm{
         display: flex;
         justify-content: center;
