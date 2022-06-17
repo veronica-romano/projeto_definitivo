@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300&display=swap');
+
+/*configurações gerais*/
+
+html {
+    /* font-size: 16px; */
+}
+
+h1, h2, h3 {
+    font-family: 'Anton';
+}
+
+p, li, button{
+    font-family: 'Poppins';
+    /* width: 80%;
+    margin: 0 auto; */
+}
+nav,
+#footer {
+    background-color: #F2C335;
+}
+
+#footer p {
+    color: black;
+    font-weight: bold
+}
+
+nav {
+    position: absolute;
+    z-index: 9999;
+}
+
+nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
+    border-radius: 15px;
+    background-color: #5a3f26e6;
+    color: white !important;
+ }
+
+/* Fim das configurações gerais da navegação e footer */
+
+/*css do index*/
+ .primeira-interacao{
+    background-image: linear-gradient(to bottom, #F2C335, #daae2a);
+    width: 100%;
+}
+        .img-primeira-interacao{
+            max-width: 100%;
+        }
+
+        
+         .btn-inicial{
+            background-color: hsl(29, 41%, 25%);
+            color: white;
+            width: 15%;
+        }
+
+        .btn-inicial:hover{
+            font-weight: bold;
+            color: black;
+            background-color: rgba(255, 255, 255, 0);
+        } 
+/* Fim css index */
+
+/* Css do forms de login e cadastro */
+    .btn-login, .btn-cadastro{
+    background-color: hsl(29, 41%, 25%);
+    color: white;
+    border-radius: 25px;
+    }
+
+    .btn-login:hover, .btn-cadastro:hover{
+    font-weight: bold;
+    color: black;
+    }
+    /* Fim do formulário do forms de login e cadastro */
+
+    /* css do conteudo da página inicial */
+     .campoUm{
+        background-image: linear-gradient(to right, black, #434343
+        );
+      
+       color: white;
+        
+    } 
+
+  
+     
+        .imgUm{
+            border-radius: 25px;
+        }
+
+    .campoDois{
+        background-image: linear-gradient(to right, black, #434343
+        );
+
+        color: white;
+    }
+        .imgDois{
+            border-radius: 25px;
+        }
+      
+        .campoTres{
+            background-image: linear-gradient(to right, black, #434343
+            );
+    
+            color: white;
+        }
+
+        .imgTres{
+            border-radius: 25px;
+        }
+  
+    .campoQuatro{
+        background-image: linear-gradient(to bottom, #1D594E, #257c6c);
+        color: white;
+    }
+        .imgAnimation{
+            transform: translateY(0px);
+            animation: float 5s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(-0px);
+            }
+        }
+    .sobreUm a{
+        color: #5a3f26e6;
+    }
+
+        .imgQuatro{
+            border-radius: 25px;
+        }
+
+
+    .equipe{
+        background-color: #f1f4f9;
+      
+        
+    }
+
+    .duplaUm{
+        display: flex;
+        justify-content: center;
+        gap: 25%;
+        flex-wrap: wrap;
+    }
+
+    .duplaDois{
+        display: flex;
+        justify-content: center;
+        gap: 25%;
+        flex-wrap: wrap;
+    }
+        .adriel{
+            border-radius: 50%;
+            
+        }
+
+    .textAnimation {
+        transform: translateY(0px);
+        animation: float-text 5s ease-in-out infinite;
+    }
+
+    
+    @keyframes float-text {
+        0% {
+            transform: translateY(0px);
+        }
+
+        50% {
+            transform: translateY(-4px);
+        }
+
+        100% {
+            transform: translateY(-0px);
+        }
+    }
+
+  .footer {
+    background-image: linear-gradient(to bottom, #F2C335, #daae2a);
+    height: 180px;
+  }
