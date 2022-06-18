@@ -48,11 +48,33 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
         }
 
         
-         .btn-inicial{
-            background-color: hsl(29, 41%, 25%);
-            width: 15%;
+        @media screen and (min-width: 775px) {
+            .btn-inicial{
+                background-color: hsl(29, 41%, 25%);
+                 width: 17%; 
+            }
+    
         }
 
+            @media (min-width: 505px) and (max-width: 774px) {
+                .btn-inicial{
+                    background-color: hsl(29, 41%, 25%);
+                      width: 25%;  
+                }
+        
+            }
+
+                @media screen and (min-width: 360px) and (max-width: 504px) {
+                    .btn-inicial{
+                        background-color: hsl(29, 41%, 25%);
+                         margin-bottom: 10%;
+                        width: 40%;
+                    }
+                    
+                }
+    
+                
+        
         
         .btn-inicial  {
             text-decoration: none;
