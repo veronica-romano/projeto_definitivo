@@ -105,22 +105,24 @@ aria-hidden="true">
 </div>
 </div>
 
-<div class="modal fade campoModal" id="exampleModalSenha" tabindex="-1" aria-labelledby="exampleModalLabel"
+<div class="modal fade campoModal p-4" id="exampleModalSenha" tabindex="-1" aria-labelledby="exampleModalLabel"
 aria-hidden="true">
-<div class="modal-dialog">
+<div class="modal-dialog p-4">
   <div class="modal-content">
     <div class="modal-header">
       <h5 class="modal-title" id="exampleModalLabel">Recupere sua senha</h5>
       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
-    <div class="modal-body">
-      <p>Livro enviado com sucesso!</p>
-      <img src="imagens/modal/refletindo.png" alt="sucesso ao enviar" class="imagem-modal">
-    </div>
+    <form class="p-4">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Digite o email cadastrado para a recuperação</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text" aria-placeholder="exemplo@gmail.com.br">exemplo@gmail.com.br</div>
+      </div>
+      </form>
     <div class="modal-footer">
       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-      <button type="button" class="btn btn-primary ver-disponiveis"><a href="listadelivros.html">Ver
-          disponíveis</a></button>
+      <button type="submit" class="btn btn-primary ver-disponiveis">Recuperar senha</button>
     </div>
   </div>
 </div>
