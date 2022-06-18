@@ -251,3 +251,29 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
       color: black;
       text-decoration: none;
   }
+
+    .main-anuncio {
+       background-image: linear-gradient(to bottom, #F2C335, #72580b); 
+       background-color: #F2C335;
+       padding-top: 25px;
+    }
+
+        .div-anuncio{
+            background-color: white;
+            
+        }
+
+        /* css para formulário de envio de dados do livro */
+
+        @media (min-width: 992px){
+            .envio-de-arquivo {
+                margin: 0 auto;
+                width: 50%;
+        }
+           
+    }
+
+        .img-vazia {
+    
+        }
+        /* fim do forms */
