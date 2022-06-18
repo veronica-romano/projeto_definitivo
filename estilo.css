@@ -50,15 +50,25 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
         
          .btn-inicial{
             background-color: hsl(29, 41%, 25%);
-            color: white;
             width: 15%;
         }
 
-        .btn-inicial:hover{
-            font-weight: bold;
-            color: black;
-            background-color: rgba(255, 255, 255, 0);
-        } 
+        
+        .btn-inicial  {
+            text-decoration: none;
+            color: white;
+        }
+
+            .btn-inicial a:hover{
+                color: black;
+            }
+
+            .btn-inicial:hover {
+                
+                font-weight: bold;
+                background-color: rgba(255, 255, 255, 0);
+                padding: 3px;
+            }
 /* Fim css index */
 
 /* Css do forms de login e cadastro */
