@@ -10,7 +10,7 @@ h1, h2, h3 {
     font-family: 'Anton';
 }
 
-p, li, button{
+p, li, button, a{
     font-family: 'Poppins';
     /* width: 80%;
     margin: 0 auto; */
@@ -105,6 +105,14 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
     font-weight: bold;
     color: black;
     }
+
+        .termos, .privacidade, .esqueceu-a-senha {
+            color: black;
+        }
+
+            #modalOne{
+                z-index: 9999;
+            }
     /* Fim do formulário do forms de login e cadastro */
 
     /* css do conteudo da página inicial */
@@ -225,5 +233,21 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
 
   .footer {
     background-image: linear-gradient(to bottom, #F2C335, #daae2a);
-    height: 180px;
+    padding: 20px;
+  }
+
+  .footer ul {
+    list-style: none;
+  }
+    
+    .footer li a:hover {
+        color: white;
+        background-color: hsl(29, 41%, 25%);
+        
+        border-radius: 15px;
+    }
+
+  .footer a {
+      color: black;
+      text-decoration: none;
   }
