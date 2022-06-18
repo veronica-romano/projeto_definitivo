@@ -61,8 +61,8 @@
                     <a href="login.html">
                       <p class="mb-2 pb-lg-2">Já possui cadastro? Faça Login</p>
                     </a>
-                    <a href="#!" class="small text-muted ">Terms of use.</a>
-                    <a href="#!" class="small text-muted">Privacy policy</a>
+                    <a class="small text-muted termos mx-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Termos de uso</a>
+                    <a href="#!" class="small text-muted privacidade" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalDois">Política de privacidade</a>
                   </form>
   
                 </div>
@@ -73,6 +73,48 @@
       </div>
     </div>
   </section>
+
+  <div class="modal fade campoModal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Termos de uso</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Livro enviado com sucesso!</p>
+        <img src="imagens/modal/refletindo.png" alt="sucesso ao enviar" class="imagem-modal">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary ver-disponiveis"><a href="listadelivros.html">Ver
+            disponíveis</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade campoModal" id="exampleModalDois" tabindex="-1" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Política de privacidade</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <p>Livro enviado com sucesso!</p>
+      <img src="imagens/modal/refletindo.png" alt="sucesso ao enviar" class="imagem-modal">
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      <button type="button" class="btn btn-primary ver-disponiveis"><a href="listadelivros.html">Ver
+          disponíveis</a></button>
+    </div>
+  </div>
+</div>
+</div>
   
 
     <script src="bootstrap-5.2.0-beta1-dist (1)/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
