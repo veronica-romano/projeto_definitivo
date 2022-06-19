@@ -15,15 +15,10 @@ p, li, button, a{
     /* width: 80%;
     margin: 0 auto; */
 }
-nav,
-#footer {
+nav {
     background-color: #F2C335;
 }
 
-#footer p {
-    color: black;
-    font-weight: bold
-}
 
 nav {
     position: absolute;
@@ -36,6 +31,14 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
     color: white !important;
  }
 
+    footer{
+        background-image: linear-gradient(to right, black, #434343
+        );
+    }
+
+     footer ul {
+        list-style: none;
+     }
 /* Fim das configurações gerais da navegação e footer */
 
 /*css do index*/
@@ -218,27 +221,6 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
             transform: translateY(-0px);
         }
     }
-
-  .footer {
-    background-image: linear-gradient(to bottom, #F2C335, #daae2a);
-    padding: 20px;
-  }
-
-  .footer ul {
-    list-style: none;
-  }
-    
-    .footer li a:hover {
-        color: white;
-        background-color: hsl(29, 41%, 25%);
-        
-        border-radius: 15px;
-    }
-
-  .footer a {
-      color: black;
-      text-decoration: none;
-  }
 
     .main-anuncio {
        /* background-image: linear-gradient(to bottom, #F2C335, #72580b);  */
