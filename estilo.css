@@ -193,19 +193,7 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
             flex-wrap: wrap;
             justify-content: center;
         }
-    .duplaUm{
-        display: flex;
-        justify-content: center;
-        gap: 25%;
-        flex-wrap: wrap;
-    }
-
-    .duplaDois{
-        display: flex;
-        justify-content: center;
-        gap: 25%;
-        flex-wrap: wrap;
-    }
+        
         .adriel{
             border-radius: 50%;
             
