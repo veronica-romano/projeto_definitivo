@@ -174,7 +174,7 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
             }
         }
     .sobreUm a{
-        color: #5a3f26e6;
+        color: white;
     }
 
         .imgQuatro{
@@ -253,7 +253,7 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
   }
 
     .main-anuncio {
-       background-image: linear-gradient(to bottom, #F2C335, #72580b); 
+       /* background-image: linear-gradient(to bottom, #F2C335, #72580b);  */
        background-color: #F2C335;
        padding-top: 25px;
     }
