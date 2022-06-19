@@ -277,3 +277,19 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
     
         }
         /* fim do forms */
+
+
+            .btn-equipe{
+                background-color: rgb(19, 18, 18);
+            }
+
+            .btn-equipe a{
+                text-decoration: none;
+                color: white;
+            }
+
+            .btn-equipe a:hover {
+                background-color: rgba(19, 18, 18, 0);
+                color: black;
+                font-weight: bold;
+            }
