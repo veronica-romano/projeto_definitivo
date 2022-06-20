@@ -8,7 +8,7 @@
   <meta name="description" content="Anuncie seu livro para troca ou doação">
   <meta name="keywords" content="Anunciar livro, postar livro">
   <title>Livro Solto - Anunciar livro</title>
-  <link rel="shortcut icon" href="imagens/logo-e-favicon/livrosolto.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="imagens/logo-e-favicon/favicon-16x16.png" type="image/x-icon">
   <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist (1)/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
   <link rel="stylesheet" href="estilo.css">
 </head>
@@ -51,8 +51,8 @@
 <div class="container div-anuncio">
   <div>
     <div class="py-5 text-center">
-      <div class="border-shadow img-vazia container  mb-3"><img src="imagens/aguardando-imagem.png" id="img"
-        alt="" class="img-vaziaa d-block mx-auto mb-2" width="140" height="170"></div>
+      <div class="border-shadow img-vazia container"><img src="imagens/aguardando-imagem.png" id="img"
+        alt="" class="img-vaziaa d-block mx-auto mb-3" width="140" height="170"></div>
       <!-- <img class="d-block mx-auto mb-4" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
       <h2>Postagem de livro</h2>
       <p class="lead">Insira as informações do livro que será carregado e anunciado para possíveis doações ou trocas</p>
@@ -63,29 +63,28 @@
   
       </div>
       <div class="col-md-12 col-lg-12 text-center">
-        <h4 class="mb-3">Billing address</h4>
         <form class="needs-validation" novalidate>
           <div class="row g-3 mx-auto">
             <div class="col-sm-12 col-md-6">
-              <label for="firstName" class="form-label">Título</label>
+              <label for="firstName" class="form-label title">Título</label>
               <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
               <div class="invalid-feedback">
                 Valid first name is required.
               </div>
             </div>
 
-            <div class="col-md-5">
-              <label for="country" class="form-label">Categoria</label>
+            <div class="col-md-6">
+              <label for="country" class="form-label categoria">Categoria</label>
               <select class="form-select" id="country" required>
                 <option value=""></option>
-          <option value="">Romance</option>
-          <option value="">Terror</option>
-          <option value="">Fantasia</option>
-          <option value="">Ficção</option>
-          <option value="">Filosofia</option>
-          <option value="">Tecnologia</option>
-          <option value="">Saúde</option>
-          <option value="">Linguagem</option>
+                <option value="">Romance</option>
+                <option value="">Terror</option>
+                <option value="">Fantasia</option>
+                <option value="">Ficção</option>
+                <option value="">Filosofia</option>
+                <option value="">Tecnologia</option>
+                <option value="">Saúde</option>
+                <option value="">Linguagem</option>
               </select>
               <div class="invalid-feedback">
                 Please select a valid country.
@@ -101,10 +100,11 @@
           
           </div>
          
-            <label for="formFile" class="form-label">Escolha um arquivo png, jpg, jpeg para envio</label>
+            <label for="formFile" class="form-label">Escolha um arquivo de imagem para envio</label>
           <div class="mb-3 text-center envio-de-arquivo">
             <input class="form-control"type="file" accept="image/*" id="upload">
           </div>
+          <div class="enviar-foto form-signin mb-5"><a href="loginvalida.html"><button class="mt-4 btn button-foto" type="button">Enviar</button></a></div>
         </form>
       </div>
     </div>
@@ -112,35 +112,36 @@
 </main>
 
 
-  <div class="footer-dark">
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 item">
-                    <h4>Links</h4>
-                    <ul>
-                        <li class="mb-2"><a href="index.html">Início</a></li>
-                        <li class="mb-2"><a href="login.html">Login</a></li>
-                        <li class="mb-2"><a href="cadastro.html">Cadastro</a></li>
-                    </ul>
-                </div>
-                
-                <div class="col-md-6 item text">
-                    <h4>Sobre o Livro Solto</h4>
-                    <p>A Livro Solto é uma iniciativa sem fins lucrativos, que visa apenas influenciar positivamente
-                        a comunidade a nossa volta com o incentivo ao contato com a leitura..
-                    </p>
-                </div>
-                <div class="col item social">
-                <ul class="d-flex justify-content-center gap-3">
-                    <li><a href="https://www.instagram.com/livrosoltooficial/"><img src="imagens/redes-sociais/instagram.png" alt="link para instagram" width="40"></a></li>
-                    <li><img src="imagens/redes-sociais/facebook.png" alt="" width="40"></li>
-                </ul></div>
-            </div>
-            <p class="copyright">Livro Solto © 2022</p>
-        </div>
-    </footer>
+<div class="footer-dark">
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 item justify-content-md-center">
+                  <h4>Links</h4>
+                  <ul>
+                      <li class="mb-2"><a href="index.html" alt="Início">Início</a></li>
+                      <li class="mb-2"><a href="login.html" alt="Entrar na conta">Login</a></li>
+                      <li class="mb-2"><a href="cadastro.html" alt="Cadastrar uma conta">Cadastro</a></li>
+                  </ul>
+              </div>
+              
+              <div class="col-sm-12 col-md-6 col-lg-4 item text">
+                  <h4>Sobre o Livro Solto</h4>
+                  <p>A Livro Solto é uma iniciativa sem fins lucrativos, que visa apenas influenciar positivamente
+                      a comunidade a nossa volta com o incentivo ao contato com a leitura.
+                  </p>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-4 item social">
+              <ul class="d-flex justify-content-center gap-3">
+                  <li><a href="https://www.instagram.com/livrosoltooficial/" alt="link para instagram"><img src="imagens/redes-sociais/instagram.png" alt="logo do instagram" width="40"></a></li>
+                  <li><img src="imagens/redes-sociais/facebook.png" alt="" width="40"></li>
+              </ul></div>
+          </div>
+          <p class="copyright">Livro Solto © 2022</p>
+      </div>
+  </footer>
 </div>
+
 
 
 

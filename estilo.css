@@ -2,9 +2,6 @@
 
 /*configurações gerais*/
 
-html {
-    /* font-size: 16px; */
-}
 
 h1, h2, h3 {
     font-family: 'Anton';
@@ -123,6 +120,8 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
     /* Fim do formulário do forms de login e cadastro */
 
     /* css do conteudo da página inicial */
+
+            
      .campoUm{
         background-image: linear-gradient(to right, black, #434343
         );
@@ -186,8 +185,18 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
 
         .imgQuatro{
             border-radius: 25px;
+            width: 250px;
+            padding-top: 5px;
+            padding-bottom: 10px;
         }
 
+      
+            /* @media screen and (max-width: 999px) {
+                .imgQuatro {
+                    width: 40%;
+                }
+            } */
+ */
 
     .equipe{
         background-color: #f1f4f9;
@@ -204,6 +213,21 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
         .adriel{
             border-radius: 50%;
             
+        }
+
+        .btn-equipe{
+            background-color: rgb(19, 18, 18);
+        }
+
+        .btn-equipe a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .btn-equipe a:hover {
+            background-color: rgba(19, 18, 18, 0);
+            color: black;
+            font-weight: bold;
         }
 
     .textAnimation {
@@ -226,16 +250,41 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
         }
     }
 
+    /* CSS da tela de anúncio do livro */
     .main-anuncio {
        /* background-image: linear-gradient(to bottom, #F2C335, #72580b);  */
-       background-color: #F2C335;
        padding-top: 25px;
+     
     }
 
         .div-anuncio{
             background-color: white;
-            
+            width: 90%;
+            margin: 0 auto;
         }
+
+            @media screen and (min-width: 770px) {
+                .button-foto {
+                    width: 25%;
+                }
+            }
+
+            @media screen and (max-width: 769px) {
+                .button-foto {
+                    width: 50%;
+                }
+            }
+
+            .button-foto {
+                background-color: black;
+                color: white;
+            }
+                .button-foto:hover{
+                    background-color: rgba(0, 0, 0, 0);
+                    font-weight: bold;
+                    color: black;
+                }
+         
 
         /* css para formulário de envio de dados do livro */
 
@@ -247,28 +296,13 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
            
     }
 
-        .img-vazia {
-    
-        }
         /* fim do forms */
 
 
-            .btn-equipe{
-                background-color: rgb(19, 18, 18);
-            }
-
-            .btn-equipe a{
-                text-decoration: none;
-                color: white;
-            }
-
-            .btn-equipe a:hover {
-                background-color: rgba(19, 18, 18, 0);
-                color: black;
-                font-weight: bold;
-            }
+          
 
 
+        /* css geral do footer */
 
             .footer-dark {
                 padding:50px 0;
@@ -359,3 +393,29 @@ nav li a:nth-child(1):hover, nav li a:nth-child(1):active{
                 font-size:13px;
                 margin-bottom:0;
               }
+
+            /* fim do css geral footer */
+
+            /* css do botão ver disponiveis do modal da tela loginvalida */
+
+              .ver-disponiveis a{
+                text-decoration: none;
+                color: white;
+              }
+
+
+              @media screen and (min-width: 600px){
+                .select-livros{
+                    width: 20%;
+                }
+              }
+
+              @media screen and (max-width: 599px){
+                .select-livros{
+                    width: 29%;
+                    height: 25px;
+                }
+              }
+              /* fim */
+             
+          
