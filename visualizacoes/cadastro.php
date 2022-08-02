@@ -8,7 +8,7 @@
     <meta name="description" content="Faça seu cadastro para liberar ou conseguir um livro">
     <meta name="keywords" content="Cadastrar conta, criar conta">
     <title>Livro Solto - Cadastro</title>
-    <link rel="shortcut icon" href="imagens/logo-e-favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../imagens/logo-e-favicon/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="estilo.css">
     <link href="signin.css" rel="stylesheet">
@@ -25,7 +25,7 @@
             <div class="card" style="border-radius: 1rem;">
               <div class="row g-0">
                 <div class="col-md-6 col-lg-5 d-none d-md-block">
-                  <img src="imagens/login_e_cadastro/rapaz-com-livro.jpg"
+                  <img src="../imagens/login_e_cadastro/rapaz-com-livro.jpg"
                     alt="Rapaz de cabelo levemente cacheado e loiro, bigode, com um livro nas mãos enquanto olha fixamente para a frente" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
                 </div>
                 <div class="col-md-6 col-lg-7 d-flex align-items-center">
@@ -35,7 +35,7 @@
     
                       <div class="d-flex align-items-center mb-3 pb-1">
                         <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
-                        <span class="h1 fw-bold mb-0"><a href="index.html"><img src="imagens/logo-e-favicon/Logo-sem-fundo-2.png" alt="Letra L com bordas arredondas seguida de Livro Solto, indicando o logo do site" width="25%"></a></span>
+                        <span class="h1 fw-bold mb-0"><a href="index.php"><img src="../imagens/logo-e-favicon/Logo-sem-fundo-2.png" alt="Letra L com bordas arredondas seguida de Livro Solto, indicando o logo do site" width="25%"></a></span>
                       </div>
     
                       <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Crie sua conta</h5>
@@ -56,10 +56,10 @@
     
     
                       <div class="pt-1 mb-4">
-                        <a href="login.html"><button class="btn btn-lg btn-block btn-cadastro" type="button">Cadastrar</button></a>
+                        <a href="login.php"><button class="btn btn-lg btn-block btn-cadastro" type="button">Cadastrar</button></a>
                       </div>
     
-                      <a href="login.html">
+                      <a href="login.php">
                         <p class="mb-2 pb-lg-2">Já possui cadastro? Faça Login</p>
                       </a>
                       <a class="small text-muted termos mx-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Termos de uso</a>
@@ -137,7 +137,7 @@ aria-hidden="true">
 </div>
   
 
-    <script src="bootstrap-5.2.0-beta1-dist (1)/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap.bundle.js"></script>
     <script src="nosso.js"></script>
 </body>
 

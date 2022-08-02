@@ -8,7 +8,7 @@
   <meta name="description" content="Anuncie seu livro para troca ou doação">
   <meta name="keywords" content="Anunciar livro, postar livro">
   <title>Livro Solto - Anunciar livro</title>
-  <link rel="shortcut icon" href="imagens/logo-e-favicon/favicon-16x16.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../imagens/logo-e-favicon/favicon-16x16.png" type="image/x-icon">
   <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="estilo.css">
 </head>
@@ -17,8 +17,8 @@
   <header>
     <nav class="navbar navbar-expand-md text-center ">
         <div class="container mxe-md-5">
-            <h1><a class="navbar-brand pt-2" href="index.html"><img
-                        src="imagens/logo-e-favicon/Logo-sem-fundo-2.png"
+            <h1><a class="navbar-brand pt-2" href="index.php"><img
+                        src="../imagens/logo-e-favicon/Logo-sem-fundo-2.png"
                         alt="Letra L com bordas arredondas seguida de Livro Solto, indicando o logo do site"
                         width="80px"></a></h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -31,14 +31,14 @@
                 <div class="col-4">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 hamb">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html"
+                            <a class="nav-link" aria-current="page" href="index.php"
                                 alt="Página inicial">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.html" alt="Link para equipe">Login</a>
+                            <a class="nav-link" href="login.php" alt="Link para equipe">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.html" alt="Link para equipe">Cadastro</a>
+                            <a class="nav-link" href="login.php" alt="Link para equipe">Cadastro</a>
                         </li>
                     </ul>
                 </div>
@@ -51,7 +51,7 @@
 <div class="container div-anuncio">
   <div>
     <div class="py-5 text-center">
-      <div class="border-shadow img-vazia container"><img src="imagens/aguardando-imagem.png" id="img"
+      <div class="border-shadow img-vazia container"><img src="../imagens/aguardando-imagem.png" id="img"
         alt="" class="img-vaziaa d-block mx-auto mb-3" width="140" height="170"></div>
       <!-- <img class="d-block mx-auto mb-4" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
       <h2>Postagem de livro</h2>
@@ -104,7 +104,7 @@
           <div class="mb-3 text-center envio-de-arquivo">
             <input class="form-control"type="file" accept="image/*" id="upload">
           </div>
-          <div class="enviar-foto form-signin mb-5"><a href="loginvalida.html"><button class="mt-4 btn button-foto" type="button">Enviar</button></a></div>
+          <div class="enviar-foto form-signin mb-5"><a href="loginvalida.php"><button class="mt-4 btn button-foto" type="button">Enviar</button></a></div>
         </form>
       </div>
     </div>
@@ -119,9 +119,9 @@
               <div class="col-sm-12 col-md-6 col-lg-4 item justify-content-md-center">
                   <h4>Links</h4>
                   <ul>
-                      <li class="mb-2"><a href="index.html" alt="Início">Início</a></li>
-                      <li class="mb-2"><a href="login.html" alt="Entrar na conta">Login</a></li>
-                      <li class="mb-2"><a href="cadastro.html" alt="Cadastrar uma conta">Cadastro</a></li>
+                      <li class="mb-2"><a href="index.php" alt="Início">Início</a></li>
+                      <li class="mb-2"><a href="login.php" alt="Entrar na conta">Login</a></li>
+                      <li class="mb-2"><a href="cadastro.php" alt="Cadastrar uma conta">Cadastro</a></li>
                   </ul>
               </div>
               
@@ -133,8 +133,8 @@
               </div>
               <div class="col-sm-12 col-md-12 col-lg-4 item social">
               <ul class="d-flex justify-content-center gap-3">
-                  <li><a href="https://www.instagram.com/livrosoltooficial/" alt="link para instagram"><img src="imagens/redes-sociais/instagram.png" alt="logo do instagram" width="40"></a></li>
-                  <li><img src="imagens/redes-sociais/facebook.png" alt="" width="40"></li>
+                  <li><a href="https://www.instagram.com/livrosoltooficial/" alt="link para instagram"><img src="../imagens/redes-sociais/instagram.png" alt="logo do instagram" width="40"></a></li>
+                  <li><img src="../imagens/redes-sociais/facebook.png" alt="" width="40"></li>
               </ul></div>
           </div>
           <p class="copyright">Livro Solto © 2022</p>
@@ -146,7 +146,7 @@
 
 
  
-  <script src="bootstrap-5.2.0-beta1-dist (1)/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
+  <script src="bootstrap.bundle.js"></script>
   <script src="nosso.js"></script>
 
 </body>

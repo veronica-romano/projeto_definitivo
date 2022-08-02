@@ -8,7 +8,7 @@
     <meta name="description" content="Doe, troque e busque livros com o Livro Solto">
     <meta name="keywords" content="Troca de livros, doação de livros, apoio a leitura, literatura">
     <title>Livro Solto - Apoiando a leitura</title>
-    <link rel="shortcut icon" href="imagens/logo-e-favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../imagens/logo-e-favicon/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="estilo.css">
 </head>
@@ -17,8 +17,8 @@
     <header>
         <nav class="navbar navbar-expand-md text-center ">
             <div class="container mxe-md-5">
-                <h1><a class="navbar-brand pt-2" href="index.html"><img
-                            src="imagens/logo-e-favicon/Logo-sem-fundo-2.png"
+                <h1><a class="navbar-brand pt-2" href="index.php"><img
+                            src="../imagens/logo-e-favicon/Logo-sem-fundo-2.png"
                             alt="Letra L com bordas arredondas seguida de Livro Solto, indicando o logo do site"
                             width="80px"></a></h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -31,14 +31,14 @@
                     <div class="col-4">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 hamb">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html"
+                                <a class="nav-link" aria-current="page" href="index.php"
                                     alt="Página inicial">Início</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="login.html" alt="Entrar na conta">Login</a>
+                                <a class="nav-link" href="login.php" alt="Entrar na conta">Login</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="cadastro.html" alt="Cadastrar conta">Cadastro</a>
+                                <a class="nav-link" href="cadastro.php" alt="Cadastrar conta">Cadastro</a>
                             </li>
                         </ul>
                     </div>
@@ -54,10 +54,10 @@
         <h1>Tire a poeira do seu livro!</h1>
         <h2>A gente te ajuda a arrumar um destino para ele</h2>
         <div class="d-flex justify-content-center pt-5 mt-4 gap-5 botoes-interacao">
-            <a href="tela_foto.html" alt="Anunciar livro" class="btn btn-inicial p-2">Anunciar livro</a>
-            <a href="listadelivros.html" alt="Buscar livro" class="btn  btn-inicial p-2">Buscar livro</a>
+            <a href="tela_foto.php" alt="Anunciar livro" class="btn btn-inicial p-2">Anunciar livro</a>
+            <a href="listadelivros.php" alt="Buscar livro" class="btn  btn-inicial p-2">Buscar livro</a>
         </div>
-        <img src="imagens/img-index/colecao-de-livros-index.png" alt="Coleção de livros" class="img-primeira-interacao">
+        <img src="../imagens/img-index/colecao-de-livros-index.png" alt="Coleção de livros" class="img-primeira-interacao">
     </section>
 
     <main class="main-index">
@@ -68,13 +68,13 @@
                     mundo inteiramente nosso. Com a leitura, nos tornamos melhores para os outros e para nós mesmos.</p>
             </div>
             <div class="conteudo-dois pt-2 col-lg-4 text-center">
-                <img src="imagens/img-index/pai-e-filha-com-livro.jpg" alt="Pai e filha realizando a leitura de um livro" class="imgUm imgAnimation">
+                <img src="../imagens/img-index/pai-e-filha-com-livro.jpg" alt="Pai e filha realizando a leitura de um livro" class="imgUm imgAnimation">
             </div>
         </section>
 
         <section class="campoDois pt-4 px-3 px-lg-0 justify-content-center d-lg-flex anime">
             <div class="conteudo-tres pt-2 col-lg-4 text-center d-none d-md-none d-lg-inline pt-2">
-                <img src="imagens/img-index/garota-lendo-com-fundo-preto-e-branco (2).jpg" alt="Moça lendo livro em uma foto preto e branco"
+                <img src="../imagens/img-index/garota-lendo-com-fundo-preto-e-branco (2).jpg" alt="Moça lendo livro em uma foto preto e branco"
                     class="imgDois imgAnimation">
             </div>
             <div class="conteudo-quatro p-2 mt-5 col-lg-6 text-center d-none d-md-none  textAnimation">
@@ -91,7 +91,7 @@
             </div>
 
             <div class="conteudo-tres pt-2 col-lg-4 text-center  d-md-block d-lg-none">
-                <img src="imagens/img-index/garota-lendo-com-fundo-preto-e-branco (2).jpg" alt="Moça lendo livro em uma foto preto e branco"
+                <img src="../imagens/img-index/garota-lendo-com-fundo-preto-e-branco (2).jpg" alt="Moça lendo livro em uma foto preto e branco"
                     class="imgDois imgAnimation">
             </div>
         </section>
@@ -106,7 +106,7 @@
                 </p>
             </div>
             <div class="conteudo-seis pt-2 pb-5 col-lg-4 text-center">
-                <img src="imagens/img-index/garota-sentada-lendo.jpg" alt="Garota sentada em sua cama enquanto realiza a leitura do livro" class="imgTres imgAnimation">
+                <img src="../imagens/img-index/garota-sentada-lendo.jpg" alt="Garota sentada em sua cama enquanto realiza a leitura do livro" class="imgTres imgAnimation">
             </div>
         </section>
 
@@ -131,7 +131,7 @@
 
             </div>
             <div class="sobreDois p-2 mt-5 col-lg-4 text-center"><img
-                    src="imagens/img-index/garota-lendo-com-oculos-reduzida.jpg" alt="Garota de óculos, cabelo curto com um livro de capa esverdeada nas mãos" class="imgAnimation imgQuatro">
+                    src="../imagens/img-index/garota-lendo-com-oculos-reduzida.jpg" alt="Garota de óculos, cabelo curto com um livro de capa esverdeada nas mãos" class="imgAnimation imgQuatro">
             </div>
             </div>
 
@@ -143,22 +143,22 @@
         <div class="divisao">
           
                 <div class="mb-5 col-12 col-md-6 col-lg-3 text-center">
-                    <img src="imagens/integrantes/adriel-pequeno.jpg" alt="Rapaz de cabelo curto, blusa preta a frente de uma porta de madeira" class="adriel">
+                    <img src="../imagens/integrantes/adriel-pequeno.jpg" alt="Rapaz de cabelo curto, blusa preta a frente de uma porta de madeira" class="adriel">
                     <h3 class=" mt-2 p-0 m-0">Adriel Lira</h3>
                     <button class="btn btn-equipe mt-2"><a href="https://linkr.bio/adrieldesenvolvedor" target="_blank" rel="external" alt="Link para perfil de Adriel">Veja mais</a></button> 
                 </div>
                 <div class="text-center col-12 col-md-6 col-lg-3 mb-5">
-                    <img src="imagens/integrantes/wesley_integrante.jpeg.jpg" alt="Rapaz de cabelo colorido sorrindo" class="adriel">
+                    <img src="../imagens/integrantes/wesley_integrante.jpeg.jpg" alt="Rapaz de cabelo colorido sorrindo" class="adriel">
                     <h3 class="text-center mt-2">Wesley</h3>
                     <button class="btn btn-equipe"><a href="https://linkr.bio/wessfernandes" alt="Link para perfil de Wesley" target="_blank" rel="external">Veja mais</a></button> 
             </div>
                 <div class="text-center col-12 col-md-6 col-lg-3 mb-5">
-                    <img src="imagens/integrantes/gabriel_luna.jpg" alt="Rapaz de blusa preta, barba, com um fundo iluminado pelo sol" class="adriel">
+                    <img src="../imagens/integrantes/gabriel_luna.jpg" alt="Rapaz de blusa preta, barba, com um fundo iluminado pelo sol" class="adriel">
                     <h3 class="text-center mt-2">Gabriel Luna</h3>
                     <button class="btn btn-equipe"><a href="https://www.instagram.com/el.bin/" alt="Link para o perfil de Gabriel" target="_blank" rel="external">Veja mais</a></button> 
                 </div> 
                 <div class="text-center col-12 col-md-6 col-lg-3 mb-5">
-                    <img src="imagens/integrantes/veronica.jpg" alt="Garota com camisa preta e cabelo azulado" class="adriel">
+                    <img src="../imagens/integrantes/veronica.jpg" alt="Garota com camisa preta e cabelo azulado" class="adriel">
                     <h3 class="mt-2">Veronica</h3>
                     <button class="btn btn-equipe"><a href="https://lnk.bio/veronica-silva" alt="Link para perfil da Veronica" target="_blank" rel="external">Veja mais</a></button> 
                 </div>
@@ -176,9 +176,9 @@
                     <div class="col-sm-12 col-md-6 col-lg-4 item justify-content-md-center">
                         <h4>Links</h4>
                         <ul>
-                            <li class="mb-2"><a href="index.html" alt="Início">Início</a></li>
-                            <li class="mb-2"><a href="login.html" alt="Entrar na conta">Login</a></li>
-                            <li class="mb-2"><a href="cadastro.html" alt="Cadastrar uma conta">Cadastro</a></li>
+                            <li class="mb-2"><a href="index.php" alt="Início">Início</a></li>
+                            <li class="mb-2"><a href="login.php" alt="Entrar na conta">Login</a></li>
+                            <li class="mb-2"><a href="cadastro.php" alt="Cadastrar uma conta">Cadastro</a></li>
                         </ul>
                     </div>
                     
@@ -190,8 +190,8 @@
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-4 item social">
                     <ul class="d-flex justify-content-center gap-3">
-                        <li><a href="https://www.instagram.com/livrosoltooficial/" alt="link para instagram"><img src="imagens/redes-sociais/instagram.png" alt="logo do instagram" width="40"></a></li>
-                        <li><img src="imagens/redes-sociais/facebook.png" alt="logo do facebool" width="40"></li>
+                        <li><a href="https://www.instagram.com/livrosoltooficial/" alt="link para instagram"><img src="../imagens/redes-sociais/instagram.png" alt="logo do instagram" width="40"></a></li>
+                        <li><img src="../imagens/redes-sociais/facebook.png" alt="logo do facebool" width="40"></li>
                     </ul></div>
                 </div>
                 <p class="copyright">Livro Solto © 2022</p>
@@ -201,7 +201,7 @@
     
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="anima.js"></script>
-    <script src="bootstrap-5.2.0-beta1-dist (1)/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap.bundle.js"></script>
     <script src="nosso.js"></script>
 </body>
 
