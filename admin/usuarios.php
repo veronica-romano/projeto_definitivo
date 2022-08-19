@@ -48,5 +48,6 @@ $listaDeUsuarios = $usuario->listar();
 
     </section>
 <script src="../visualizacoes/bootstrap.bundle.js"></script>
+<script src="./js/confirm.js"></script>
 </body>
 </html>

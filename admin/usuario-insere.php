@@ -7,7 +7,6 @@ if (isset($_POST['inserir'])) {
 	$usuario->setNome($_POST['nome']);
 	$usuario->setEmail($_POST['email']);
     $usuario->setSenha($_POST['senha']);
-    $listaSenac = $usuario->getSenac();
     $usuario->setSenac($_POST['senac']);
 	$usuario->inserir();
 	header("location:usuarios.php");
@@ -49,17 +48,12 @@ if (isset($_POST['inserir'])) {
 			</div>
 
 			<div class="mb-3">
-				<label class="form-label" for="tipo">Senac:</label>
-				<select class="form-select form-control" name="tipo" id="tipo" required>
+				<label class="form-label" for="senac">Senac:</label>
+				<select class="form-select form-control" name="senac" id="senac" required>
 					<option value=""></option>
-                    <?php
-                    foreach ($listaSenac as $senac) {
-                    ?>
-                    <option value=""><?=$usuario->getSenac()?></option>
-                    <?php
-                    }
-                    ?>
-                    
+                    <option value="penha">Penha</option>
+					<option value="tatuape">Tatuapé</option>
+					<option value="itaquera">Itaquera</option>
 				</select>
 			</div>
                 <button class="btn btn-success  col" id="inserir" name="inserir"><i class="bi bi-save"></i> Inserir Usuário</button>
