@@ -18,8 +18,10 @@ $listaDeUsuarios = $usuario->listar();
     <section class="row text-center justify-content-center py-4">
         <article class="col-8 bg-white rounded shadow my-1 py-4">
             <h2 class="text-center">
-            Usuários <span class="badge bg-secondary"><?=count($listaDeUsuarios)?></span>
-            </h2>
+            Usuários <span class="badge bg-secondary"><?=count($listaDeUsuarios)?></span></h2>
+
+            <p><i class="bi bi-save"></i><a class="btn btn-success" href="usuario-insere.php">Inserir novo usuário</a></p>
+
             <table class="table table-hover">
                 <thead>
                     <th>Nome</th>
@@ -36,7 +38,7 @@ $listaDeUsuarios = $usuario->listar();
                         <td><?=$usuario['email']?></td>
                         <td><?=$usuario['senac']?></td>
                         <td><a href="usuario-atualiza.php?id=<?=$usuario['id']?>" class="btn btn-primary">Update</a></td>
-                        <td><a href="usuario-exclui.php?id=<?=$usuario['id']?>" class="btn btn-danger">Delete</a></td>
+                        <td><a href="usuario-exclui.php?id=<?=$usuario['id']?>" class="btn btn-danger excluir" onclick="excluir()">Delete</a></td>
                     </tr>
 
                 <?php
