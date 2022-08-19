@@ -39,7 +39,7 @@ if (isset($_POST['atualizar'])) {
 
 			<div class="mb-3">
 				<label class="form-label" for="nome">Nome:</label>
-				<input class="form-control" type="text" id="nome" name="nome" required>
+				<input class="form-control" value="<?= $dados['nome']?>"type="text" id="nome" name="nome" required>
 			</div>
 
 			<div class="mb-3">
@@ -55,14 +55,22 @@ if (isset($_POST['atualizar'])) {
 			<div class="mb-3">
 				<label class="form-label" for="senac">Senac:</label>
 				<select class="form-select form-control" name="senac" id="senac" required>
-					<option value=""></option>
+					<?php
+                    if ($dados['senac']) {
+                   ?>
+                   <option value="<?= $dados['senac']?>" selected> <?= $dados['senac']?> </option>
+                   <?php
+                }
+
+                ?>
+
                     <option value="penha">Penha</option>
 					<option value="tatuape">Tatuapé</option>
 					<option value="itaquera">Itaquera</option>
 				</select>
 			</div>
                 <button class="btn btn-success  col" id="atualizar" name="atualizar"><i class="bi bi-save"></i> Atualizar </button>
-                <button class="btn btn-outline-danger  col" id="cancelar" name="cancelar"><i class="bi bi-save"></i> Cancelar</button>
+                <a href="usuarios.php" class="btn btn-outline-danger  col" id="cancelar" name="cancelar"><i class="bi bi-save"></i> Cancelar</a>
 		</form>
 		
 	</article>

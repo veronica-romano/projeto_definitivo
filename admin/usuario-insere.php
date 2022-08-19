@@ -57,7 +57,7 @@ if (isset($_POST['inserir'])) {
 				</select>
 			</div>
                 <button class="btn btn-success  col" id="inserir" name="inserir"><i class="bi bi-save"></i> Inserir Usuário</button>
-                <button class="btn btn-outline-danger  col" id="cancelar" name="cancelar"><i class="bi bi-save"></i> Cancelar</button>
+                <a href="usuarios.php" class="btn btn-outline-danger  col" id="cancelar" name="cancelar"><i class="bi bi-save"></i> Cancelar</a>
 		</form>
 		
 	</article>
