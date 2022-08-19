@@ -61,9 +61,7 @@ if (isset($_POST['atualizar'])) {
                    <option value="<?= $dados['senac']?>" selected> <?= $dados['senac']?> </option>
                    <?php
                 }
-
                 ?>
-
                     <option value="penha">Penha</option>
 					<option value="tatuape">Tatuapé</option>
 					<option value="itaquera">Itaquera</option>
