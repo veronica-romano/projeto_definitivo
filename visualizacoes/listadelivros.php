@@ -22,7 +22,6 @@ $listaDeLivros = $livros->listar();
     text-align: center;
 }
     </style>
-<body>
 
 
     <div class="mt-4 ms-3"><form action="">
@@ -49,7 +48,10 @@ $listaDeLivros = $livros->listar();
             <h4><?=$livros['genero']?> de <?=$livros['autor']?></h4>
             <h5>Disponibilidade: <?=$livros['diasEntrega']?> , <?=$livros['horariosEntrega']?></h5>
             <div><p><?=$livros['descricao']?></p></div>
-            <div class="card-footer">Usuário: <?=$livros['id_usuario_entrega']?> <a class="btn btn-success" href="http://">É esse!</a></div>
+            <div class="card-footer">
+                Usuário: <?=$livros['id_usuario_entrega']?> 
+                <a class="btn btn-primary" href="detalhes-livro.php?id=<?=$livros['id']?>">Ver detalhes</a>
+                <a class="btn btn-success" href="detalhes-livro.php?id=<?=$livros['id']?>">É esse!</a></div>
             </section>
             <?php
             

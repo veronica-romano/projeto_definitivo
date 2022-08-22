@@ -14,11 +14,6 @@
 <?php
   require_once "../inc/cabecalho-geral.php";
 ?>
-
-
-<body class="body-tela">
- 
-
 <main class="main-anuncio justify-content-center p-3">
 <div class="container div-anuncio">
   <div>

@@ -3,6 +3,9 @@ use Projeto\Livro;
 use Projeto\Usuario;
 require_once "../vendor/autoload.php";
 ?>
+    <link rel="shortcut icon" href="../imagens/logo-e-favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <header>
 <nav class="navbar navbar-expand-md text-center ">
@@ -36,3 +39,4 @@ require_once "../vendor/autoload.php";
     </div>
 </nav>
 </header>
+<body>

@@ -8,14 +8,11 @@
     <meta name="description" content="Doe, troque e busque livros com o Livro Solto">
     <meta name="keywords" content="Troca de livros, doação de livros, apoio a leitura, literatura">
     <title>Livro Solto - Apoiando a leitura</title>
-    <link rel="shortcut icon" href="../imagens/logo-e-favicon/favicon-16x16.png" type="image/x-icon">
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="estilo.css">
 <?php
     require_once "../inc/cabecalho-geral.php";
 ?>
 
-<body>
+
     <section class=" col-8 section-desktop containe-fluid text-center shadow primeira-interacao">
 
         <h1>Tire a poeira do seu livro!</h1>
