@@ -12,13 +12,14 @@ class Livro{
     public string $id_usuario_recebe;	
     public string $diasEntrega;	
     public string $horariosEntrega;
+    public string $autor;
 
     public function __construct(){ //método que functiona na criação do objeto
         $this->conexao = Banco::conecta();
     }
 
     public function listar(){
-        $sql = "SELECT id, titulo, capa, descricao, genero, id_usuario_entrega, id_usuario_recebe, diasEntrega horariosEntrega FROM livros ORDER BY titulo";
+        $sql = "SELECT id, titulo, capa, descricao, genero, id_usuario_entrega, id_usuario_recebe, diasEntrega, horariosEntrega, autor FROM livros ORDER BY titulo";
         try {
             $consulta = $this->conexao->prepare($sql);
             $consulta->execute();
@@ -105,6 +106,15 @@ class Livro{
     }
     public function setHorariosEntrega(string $horariosEntrega){
         $this->horariosEntrega = $horariosEntrega;
+        return $this;
+    }
+
+
+    public function getAutor(): string{
+        return $this->autor;
+    }
+    public function setAutor(string $autor){
+        $this->autor = filter_var($autor, FILTER_SANITIZE_SPECIAL_CHARS);
         return $this;
     }
 }
