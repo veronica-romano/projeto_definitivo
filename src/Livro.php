@@ -12,9 +12,21 @@ class Livro{
     public string $id_usuario_recebe;	
     public string $diasEntrega;	
     public string $horariosEntrega;
-    
+
     public function __construct(){ //método que functiona na criação do objeto
         $this->conexao = Banco::conecta();
+    }
+
+    public function listar(){
+        $sql = "SELECT id, titulo, capa, descricao, genero, id_usuario_entrega, id_usuario_recebe, diasEntrega horariosEntrega FROM livros ORDER BY titulo";
+        try {
+            $consulta = $this->conexao->prepare($sql);
+            $consulta->execute();
+            $resultado = $consulta->fetchAll(PDO::FETCH_ASSOC);
+        } catch (Exception $erro) {
+            die("Erro: ".$erro->getMessage());
+        }
+        return $resultado;
     }
 
     public function getId(): int {
